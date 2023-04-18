@@ -10,7 +10,7 @@ public class NewTest extends baseclass {
 	  public void signin_facebook() throws InterruptedException, IOException {
 		  
 		 
-		  System.out.println("This is test1");
+		  System.out.println("This is test12");
 		  Thread.sleep(5000);
 		  shotsv2("1");
 		  
