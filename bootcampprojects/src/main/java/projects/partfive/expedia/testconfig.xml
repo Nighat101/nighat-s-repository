@@ -1,0 +1,29 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="webtestsuite2">
+
+<test name="expediatest">
+<parameter name="url" value="https://www.expedia.com"></parameter>
+<parameter name="origin" value="Washington, D.C."></parameter>
+<parameter name="destination" value="Islamabad"></parameter>
+<parameter name="firstname" value="John"></parameter>
+<parameter name="middlename" value="Michael"></parameter>
+<parameter name="lastname" value="Doe"></parameter>
+<parameter name="monthDOB" value="06 - Jun"></parameter>
+<parameter name="dayDOB" value="15"></parameter>
+<parameter name="yearDOB" value="1975"></parameter>
+<parameter name="cardholdername" value="John Doe"></parameter>
+<parameter name="cardnumber" value="9988776655443322"></parameter>
+<parameter name="cardexpmo" value="04-Apr"></parameter>
+<parameter name="cardexpyr" value="2030"></parameter>
+<parameter name="cardseccode" value="222"></parameter>
+<parameter name="address" value="1000 Main St"></parameter>
+<parameter name="city" value="Big City"></parameter>
+<parameter name="state" value="DC"></parameter>
+<parameter name="zip" value="11111"></parameter>
+<parameter name="email" value="example@company.net"></parameter>
+<classes>
+<class name="projects.partfive.expedia.ExpediaTest"></class>
+</classes>
+</test>
+
+</suite>
