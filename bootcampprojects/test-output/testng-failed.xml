@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [webtestsuite3]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="amazontest(failed)">
+    <parameter name="item" value="Amazon Basics Felt Tip Marker Pens - Assorted Color, 12-Pack"/>
+    <parameter name="search-entry" value="pen"/>
+    <parameter name="file-name" value="amzn"/>
+    <parameter name="url" value="https://www.amazon.com"/>
+    <classes>
+      <class name="projects.partfive.amazon.CommonClass">
+        <methods>
+          <include name="amazonTest" invocation-numbers="0"/>
+          <include name="closeTest"/>
+          <include name="openTest"/>
+        </methods>
+      </class> <!-- projects.partfive.amazon.CommonClass -->
+    </classes>
+  </test> <!-- amazontest(failed) -->
+</suite> <!-- Failed suite [webtestsuite3] -->

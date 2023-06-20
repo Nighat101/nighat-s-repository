@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="webtestsuite3">
+
+<test name="amazontest">
+<parameter name="url" value="https://www.amazon.com"></parameter>
+<parameter name="search-entry" value="pen"></parameter>
+<parameter name="item" value="Amazon Basics Felt Tip Marker Pens - Assorted Color, 12-Pack"></parameter>
+<parameter name="file-name" value="amzn"></parameter>
+<classes>
+<class name="projects.partfive.amazon.CommonClass"></class>
+</classes>
+</test>
+
+</suite>
